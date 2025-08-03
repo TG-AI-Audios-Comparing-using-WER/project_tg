@@ -1,0 +1,22 @@
+{
+    "gpt": {
+        "audio_extension_file" : "_gpt4o.txt",
+        "model_name": "gpt-4o-audio-preview",
+        "audio_input_format": ["wav", "mp3", "flac", "opus", "pcm16"] 
+    },
+    "gcp":{
+        "audio_extension_file": "_google_stt.txt",
+        "audio_input_format": [".wav", ".mp3", ".ogg", ".flac"]
+    },
+    "gemini": {
+        "audio_extension_file": "_gemini.txt",
+        "model_name": "gemini-2.0-flash",
+        "audio_input_format": [ "wav", "mp3", "aiff", "aac","ogg","flac"]
+    },
+    "aws" : {
+        "audio_extension_file": "_aws.txt"
+    },
+    "azure" : {
+        "audio_extension_file": "_azss_stt.txt"
+    }
+}

@@ -1,0 +1,55 @@
+# Script com o objetivo de trazer informações sobre o dataset
+
+import numpy
+import os
+import pandas as pd
+import json
+from typing import Dict, Union
+
+
+def get_statistics(json_file_path: str, manual_transcription_file: str) -> Dict[str, Union[int, float]]:
+
+    file_count = 0
+    time_count = 0
+    word_count = 0
+
+    for json_file in os.listdir(json_file_path):
+        if json_file.endswith('.json'):
+            file_count += 1
+            with open(os.path.join(json_file_path, json_file), 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                time_count += data.get('duracao', 0)
+
+    for transcription_file in os.listdir(manual_transcription_file):
+        if transcription_file.endswith('.txt'):
+            with open(os.path.join(manual_transcription_file, transcription_file), 'r', encoding='utf-8') as f:
+                text = f.read()
+                word_count += len(text.split())
+
+    return {
+        "file_count": file_count,
+        "time_count": time_count,
+        "word_count": word_count
+    }
+
+
+def write_statistics(statistics: dict) -> int:
+
+    results_text = (
+        "===== Informações do Dataset =====\n"
+        f"Total de arquivos de áudio: {statistics.get('file_count')}\n"
+        f"Tempo total (em minutos): {(statistics.get('time_count')/60):.2f}\n"
+        f"Total de palavras: {statistics.get('word_count')}\n"
+    )
+
+    with open("info.txt", "w", encoding="utf-8") as output_file:
+        output_file.write(results_text)
+
+    return 0
+
+
+if __name__ == "__main__":
+    statistics = get_statistics('Datasets_Audios_Medicos\Transcriptions\json',
+                                'Datasets_Audios_Medicos\Transcriptions\manual_transcriptions')
+    write_statistics(statistics)
+    print('Script rodou com sucesso')

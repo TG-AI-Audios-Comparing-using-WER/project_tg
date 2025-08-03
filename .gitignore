@@ -1,0 +1,4 @@
+/Datasets_Audios_Medicos/Transcriptions/ai_transcriptions
+#Ignorar arquivos de audio
+*.mp3
+*.wav

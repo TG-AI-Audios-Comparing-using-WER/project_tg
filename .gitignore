@@ -2,3 +2,6 @@
 #Ignorar arquivos de audio
 *.mp3
 *.wav
+
+#Ignorando variáveis de ambiente
+*.env

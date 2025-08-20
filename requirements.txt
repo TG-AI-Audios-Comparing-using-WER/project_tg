@@ -1,0 +1,18 @@
+# Bibliotecas para processamento de dados e análise
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Bibliotecas para processamento de áudio e transcrição
+google-genai>=0.3.0
+google-cloud-speech>=2.21.0
+
+# Bibliotecas para avaliação de qualidade de transcrição
+jiwer>=3.0.0
+
+# Bibliotecas para gerenciamento de ambiente e configuração
+python-dotenv>=1.0.0
+
+# Bibliotecas opcionais para outros provedores de IA (se implementados)
+# openai>=1.0.0  # Para GPT-4o
+# azure-cognitiveservices-speech>=1.31.0  # Para Azure Speech Services
+boto3>=1.26.0  # Para AWS Transcribe 

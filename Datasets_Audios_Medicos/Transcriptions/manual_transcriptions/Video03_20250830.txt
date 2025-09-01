@@ -1,0 +1,23 @@
+qual a diferença entre uma picareta e uma traça?
+
+é que uma traça é mil vezes melhor minerando do que uma picareta
+
+a traça consegue se esconder dentro de um tipo de pedra
+
+mas se outra traça for atacada
+
+a outra traça vai quebrar a pedra e vim pra ajudar
+
+mas aí você se pergunta, como que a gente vai conseguir esse tanto de traça pra isso funcionar?
+
+aí que tá, se você jogar uma poção de infestação em um mob, ele tem uma chance de spawnar algumas traças quando você bate nele
+
+então o que a gente vai fazer é cavar um buraco até achar pedra e prender um élay dentro da água em cima do buraco
+
+o élay vai começar a se afogar e tomar dano, mas ele vai se regenerar, então ele nunca vai morrer
+
+e se você tacar uma poção de infestação nele, ele vai virar uma farm de traça
+
+e se você tacar regeneração e depois veneno nas traças, elas vão minerar todas as pedras deixando pra trás só os minérios pra você pegar
+
+me segue se eu te ajudei

@@ -1,7 +1,9 @@
 {
     "id": 18,
-    "fonte": "sentence-collector",
-    "titulo": "Voz cv-corpus 07",
-    "duracao": 9000,
+    "fonte": "Autor",
+    "titulo": "Voz cv-corpus 06",
+    "duracao": 7416,
+    "categoria" : "Genérico",
     "qt_vozes": 1
+    
 }

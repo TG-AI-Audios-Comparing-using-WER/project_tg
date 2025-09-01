@@ -1,11 +1,9 @@
 {
     "id": 19,
     "fonte": "YouTube",
-    "titulo":"como é dirigir um trator direitão",
+    "titulo": "como é dirigir um trator direitão",
     "endereco": "https://www.youtube.com/shorts/wHnNk2hQWF8",
     "duracao": 8000,
-    "categoria" : "Agro", 
+    "categoria": "Agro",
     "qt_vozes": 1
-
 }
-

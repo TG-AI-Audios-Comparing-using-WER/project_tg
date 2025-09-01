@@ -2,6 +2,8 @@
   "id": 1,
   "fonte": "Gravação Própria",
   "titulo": "Consulta simulada 01",
+  "endereco": null,
   "duracao": 190.2,
-  "qt_vozes": 2
+  "qt_vozes": 2,
+  "categoria": "Médica"
 }

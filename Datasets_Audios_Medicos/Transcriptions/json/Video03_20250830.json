@@ -1,10 +1,9 @@
 {
     "id": 21,
     "fonte": "YouTube",
-    "titulo":"sabia dessa? 🧐",
+    "titulo": "sabia dessa? 🧐",
     "endereco": "https://youtube.com/shorts/B9mJW9GVHTI?si=X8qVwcdwIaeC6FEY",
     "duracao": 43000,
-    "categoria" : "Jogos", 
+    "categoria": "Jogos",
     "qt_vozes": 1
-
 }

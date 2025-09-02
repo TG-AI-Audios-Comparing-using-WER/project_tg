@@ -1,0 +1,56 @@
+Diretamente da maior comunidade de ciência de dados do Brasil a gente traz data hackers news, as notícias mais quentes da área de dados, ai e tecnologia direto do podcast data hackers. Eu sou Monique Femme e junto comigo, eu trago as notícias
+dessa semana.
+
+Uma boa semana para você que ta aqui nos ouvindo, hoje a gente já começa com muita novidade diante de tantos acontecimentos que aconteceram na semana passada. 
+
+Foi tanta coisa né gente que a gente nem teve como trazer o data hackers de uma semana, é, anterior, principalmente porque a gente tava em evento, principalmente o evento ai data leaders vocês ouviram alguns podcasts. A gente tem muitos materiais para compartilhar com vocês.
+
+Mas vale lembrar né, aquela emblemática frase do nosso queridíssimo Arlindo Cruz ,que nos deixou também na ultima semana, de que é a pura verdade né? O show tem que continuar.
+
+E ele vai continuar mesmo porque além de tudo que ta acontecendo, tem uma novidade que vocês devem ter acompanhado aí nas nossas redes sociais, que no dia três de setembro, a gente tem um encontro marcado junto com o pessoal do Itaú porque vai acontecer um Mettup híbrido, então da pra voce participar tanto presencialmente ou até mesmo, se você tiver em qualquer lugar do país de maneira online.
+
+Então vai lá se inscrever, é totalmente gratuito. E a gente vai conhecer e ficar por dentro da inteligência do itaú que é essa plataforma que tá sendo utilizada tanto para a arquitetura de multi agentes que é um dos temas mais quentes de dois mil e vinte e cinco, pra você também conhecer a forma como milhões de pessoas se relacionam com o banco, utilizando tecnologias como essa.
+
+Além de uma agenda repleta de muito conteúdo, o data hackers vai abrir o Mettup e você tem muita chance também de conhecer as lideranças que construíram tudo isso e fazem isso acontecer. Pra saber mais detalhes, toda a inscrição tá aqui no link para você poder se inscrever e a gente se encontra aí no dia três de setembro.
+
+E as novidades não param por aí porque o nosso top dez do challenge já saiu, então você viu essa semana quem são as dez melhores análises do data hackers challenge dois mil e vinte e cinco.
+
+E agora, é contagem regressiva pra live final dos ganhadores que acontece na semana que vem, no dia vinte de agosto as dezenove e trinta. E lá a gente vai conhecer e descobrir quem leva o troféu pra casa, ou melhor, um nintendo switch dois que já ta aqui comigo e as outras posições que também vão levar tanto o Plaud AI ou até mesmo a Alexa Doc Show.
+
+Olha gente, foi tanta análises que a gente recebeu, essa edição contou com tantas novidades, principalmente com a participação, colaboração e o alcance ali que rompeu né até mesmo números que a gente tinha de outras edições. E eu já posso, já adiantar pra vocês que nessa live do dia vinte, a gente tem muitas novidades e você também que não ta no top dez, tem a oportunidade também de participar com a gente ao vivo e concorrer gente, alguns prêmios, alguns kits que a gente tá reservando pra vocês.
+
+Então vai lá, participa, vou deixar aqui o link da live pra você poder já acionar o sininho, que na semana que vem, lá no youtube do data hacker a gente tem esse encontro marcado.
+
+Então fica por aqui porque tem muita coisa acontecendo, a vida continua mesmo, e agora, a gente vai pras notícias dessa semana.
+
+E a primeira notícia gente era tinha tudo pra dar certo e de repente, o jogo virou, não é mesmo? O chat gpt cinco decepciona no lançamento mas a open ai reativa o chat gpt quatro de volta.
+
+Pois é, o lançamento do chat gpt cinco gerou diversas frustrações entre os usuários que afirmaram também que a nova versão parecia mais burra do que a anterior, isso mesmo, o problema foi atribuído a uma falha no mecanismo de roteamento que direcionava todas as solicitações pra um modelo mais rápido e menos avançado.
+
+O Sam Altman também apareceu e pediu desculpas publicamente e reativou o chat gpt quatro para os assinantes.
+
+Apesar do início conturbado, o gpt cinco traz melhorias com maior personalização e confiabilidade e mantém também a open ai ainda no par a par com o competitivo do mercado.
+
+A base de usuários, só pra você saber, atingiu, semanalmente, setecentos milhões de pessoas assinando ali essa própria versão. Mas vale ressaltar, né gente, que todo esse lançamento durou aí os dois anos, então todo mundo já esperava uma expectativa do salto de eficiência de um modelo como esse e um dia depois desse lançamento, como já mencionei aqui e todos os links dessa matéria vou deixar aqui pra vocês consultarem, tá também relacionado essa questão do roteamento que não funcionava direito e teve esse impacto também na qualidade, ou seja, todas as respostas que você ja esperaria de um modelo como esse né que já era aguardado por todo mundo, não vem com a qualidade esperada porque acaba também roteando ali pra um modelo que ninguém sabe qual é e causa esse processo, tudo que aconteceu.
+
+Então esperava-se ali, tinha essa grande expectativa, desse salto de eficiência, mas as primeiras reações foram, em muitos casos, uma grande decepção, essa é a grande realidade. Com esses usuários também relatando né que essa nova versão parecia mais burra diante de tudo que tava acontecendo.
+
+Então, eis aí o lançamento do chat gpt quatro que durou esses dois anos, todo mundo tendo essa expectativa né, se criaram tantos gpts ao longo desse tempo, todo mundo esperava né essa grande expectativa do que vinha no gpt cinco e aí, teve que voltar atrás, trazendo novamente o gpt quatro e vamo ver aí o que vai acontecer para as próximas semanas.
+
+E a segunda notícia vem dele né gente, o Elon Musk libera grok grátis nos Estados Unidos e sugere vpn pra usuários de outros países. Pois é, diante de todas as polêmicas que aconteceram nos últimos dias, também o lançamento do chat gpt, o Elon Musk anunciou que o grok imagine, que é a inteligência artificial capaz de gerar vídeos realistas, ficará gratuito mas infelizmente apenas para os usuários dos Estados Unidos. Em outros países, por exemplo, até mesmo nós aqui no Brasil,
+o acesso continua restrito e os assinantes do x premium plus que pagam ali, em média, cento e setenta reais por mês, também inclui o grok quatro e outros recursos então, todo mundo ta aguardando essa possibilidade de poder utilizar o grok imagine. O Elon Musk também chegou a sugerir o uso de vpn pra acessar a oferta fora dos Estados Unidos, embora isso também já traga alguns riscos de segurança diante do que se tem colocado aí, vou explicar o porquê.
+
+A ferramenta tá disponível apenas no aplicativo grok pra ios e também foi revelado que os planos passariam ali a ter também alguns anúncios até mesmo pra ajudar a cobrir esses altos custos voltado à inteligência artificial.
+
+E já fazendo um ponto sobre esse lançamento né que tudo que vem do Elon Musk também tem algumas coisas relacionadas a algumas polêmicas, um ponto que também foi falado por conta disso é a questão de que o aplicativo foi também utilizado pra criar algumas imagens falsas e também sexualizadas da cantora Taylor Swift. Coitada né gente, ela não tem um minuto de paz essa grande realidade.
+
+E vale ressaltar também que o próprio grok, essa nova versão, tem uma sessão chamada spice que tem como intuito criar imagens ali sexualizadas que também vai de contramão de empresas rivais que bloqueiam conteúdos considerados indecentes. Vale ressaltar que a gente vive num momento aí, principalmente essas ultimas semanas, da adultização né gerado por algumas polêmicas, mas também tem o ponto de atenção quanto a isso no uso desse tipo de ferramenta pra gerar conteúdos que podem causar também ou estimular determinados comportamentos que a gente considera conteúdos que são indecentes né.
+
+Então, essa versão ainda não ta liberada no Brasil, somente nos Estados Unidos, de maneira limitada e foi essas as polêmicas também que surgiram a partir do momento que tem essa possibilidade de você gerar esses vídeos realistas e também já criando um aspecto ali que é dimensionado pra outros países do que pode ta sendo utilizado com essa nova tecnologia.
+
+Vale ficar atento tudo que ta acontecendo e a gente acompanha por aqui, ve o que que vai acontecer pros próximos meses com esse tipo de lançamento e tudo que a gente já vem acompanhando.
+
+Mo, essas e outras notícias você acompanha aqui no data hackers e la na nossa newsletter semanal acessando datahackers ponto enews. Vai lá, coloca seu email e toda semana você recebe notícias e tudo que tá rolando dentro da área de dados.
+
+A gente se encontra na semana que vem, deixa aqui seus comentários dessas notícias
+que a gente acompanhou ao longo do dia e eu conto com sua participação.

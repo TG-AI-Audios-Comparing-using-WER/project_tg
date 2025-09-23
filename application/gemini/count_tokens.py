@@ -11,7 +11,7 @@ model = 'gemini-2.0-flash'
 
 # Call `count_tokens` to get the input token count (`total_tokens`).
 
-directory = Path('Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gemini')
+directory = Path('../../Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gemini')
 for text_file in directory.iterdir(): 
     if text_file.is_file():
         with open(text_file, 'r', encoding='utf-8') as f:

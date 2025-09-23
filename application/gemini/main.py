@@ -12,15 +12,16 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Constants
-CONFIG_PATH = Path("application/model/models_api.json")
-AUDIO_DIR = Path("Datasets_Audios_Medicos/Audios")
-OUTPUT_DIR = Path("Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gemini/timestamp")
+CONFIG_PATH = Path("../model/models_api.json")
+AUDIO_DIR = Path("../../Datasets_Audios_Medicos/Audios")
+OUTPUT_DIR = Path("../../Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gemini")
 MAX_INLINE_SIZE = 20 * 1024 * 1024  # 20 MB
 
 def load_config() -> dict:
     """Load and return the configuration from JSON file."""
     with open(CONFIG_PATH, "r", encoding="utf-8") as file:
         return json.load(file)
+
 
 def get_gemini_config() -> dict:
     """Extract and return Gemini-specific configuration."""

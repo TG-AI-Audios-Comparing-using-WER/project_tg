@@ -2,7 +2,8 @@
     "id": 19,
     "fonte": "Autor",
     "titulo": "Voz cv-corpus 07",
-    "duracao": 9000,
+    "duracao": 9,
     "categoria" : "Genérico",
-    "qt_vozes": 1   
+    "qt_vozes": 1,
+    "endereco": null
 }

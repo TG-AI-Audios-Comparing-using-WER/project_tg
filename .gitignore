@@ -6,3 +6,8 @@
 
 #Ignorando variáveis de ambiente
 *.env
+
+# Ignorando client do GCP STT
+/application/gcp/settings/keys
+
+*.pyc

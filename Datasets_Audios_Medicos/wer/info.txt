@@ -1,4 +1,4 @@
 ===== Informações do Dataset =====
-Total de arquivos de áudio: 12
-Tempo total (em minutos): 38.76
-Total de palavras: 28225
+Total de arquivos de áudio: 23
+Tempo total (em minutos): 10708.51
+Total de palavras: 7702

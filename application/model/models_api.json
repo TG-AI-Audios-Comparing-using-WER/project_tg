@@ -17,6 +17,6 @@
         "audio_extension_file": "_aws.txt"
     },
     "azure" : {
-        "audio_extension_file": "_azss_stt.txt"
+        "audio_extension_file": "_azure_stt.txt"
     }
 }

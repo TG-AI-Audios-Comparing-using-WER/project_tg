@@ -34,8 +34,22 @@ def wer_results(manual_transcription_folder_path: str, ai_transcription_folder_p
     Calcula o WER para todos os arquivos que possuem o mesmo prefixo antes do primeiro '_'.
     Retorna um dicionário com o prefixo como chave e o WER como valor.
     """
-    manual_transcription_list = os.listdir(manual_transcription_folder_path)
-    ai_transcription_list = os.listdir(ai_transcription_folder_path)
+    # Definir caminhos - partir da pasta wer atual
+    current_dir = os.path.dirname(os.path.abspath(__file__))  # pasta wer
+    parent_dir = os.path.dirname(current_dir)  # Datasets_Audios_Medicos
+    
+    # Construir caminhos completos
+    manual_path = os.path.join(parent_dir, manual_transcription_folder_path)
+    ai_path = os.path.join(parent_dir, ai_transcription_folder_path)
+    
+    # Verificar se os diretórios existem
+    if not os.path.exists(manual_path):
+        raise FileNotFoundError(f"Diretório não encontrado: {manual_path}")
+    if not os.path.exists(ai_path):
+        raise FileNotFoundError(f"Diretório não encontrado: {ai_path}")
+    
+    manual_transcription_list = os.listdir(manual_path)
+    ai_transcription_list = os.listdir(ai_path)
     
     results = {}
 
@@ -50,11 +64,11 @@ def wer_results(manual_transcription_folder_path: str, ai_transcription_folder_p
         if ai_filename is None:
             continue  # pula se não encontrar correspondente
 
-        manual_path = os.path.join(manual_transcription_folder_path, manual_filename)
-        ai_path = os.path.join(ai_transcription_folder_path, ai_filename)
+        manual_file_path = os.path.join(manual_path, manual_filename)
+        ai_file_path = os.path.join(ai_path, ai_filename)
 
-        manual_text = normalize_transcript(manual_path)
-        ai_text = normalize_transcript(ai_path)
+        manual_text = normalize_transcript(manual_file_path)
+        ai_text = normalize_transcript(ai_file_path)
         current_wer = wer_test(manual_text, ai_text)
 
         results[manual_prefix] = {"wer": current_wer}
@@ -65,11 +79,21 @@ def get_time_duration(json_folder_path: str) -> Dict[str, float]:
     """
     Retorna a duração do arquivo de áudio em segundos.
     """
+    # Definir caminhos - partir da pasta wer atual
+    current_dir = os.path.dirname(os.path.abspath(__file__))  # pasta wer
+    parent_dir = os.path.dirname(current_dir)  # Datasets_Audios_Medicos
+    
+    # Construir caminho completo
+    json_path = os.path.join(parent_dir, json_folder_path)
+    
+    # Verificar se o diretório existe
+    if not os.path.exists(json_path):
+        raise FileNotFoundError(f"Diretório não encontrado: {json_path}")
 
     times = {}
-    for item in os.listdir(json_folder_path):
+    for item in os.listdir(json_path):
         if item .endswith('.json'):
-            file_path = os.path.join(json_folder_path, item)
+            file_path = os.path.join(json_path, item)
             item_name = item.split('_')[0]
 
 
@@ -86,13 +110,13 @@ def get_time_duration(json_folder_path: str) -> Dict[str, float]:
 
 
 if __name__ == "__main__":
-    manual_transcription_folder_path = 'Datasets_Audios_Medicos/Transcriptions/manual_transcriptions'
+    manual_transcription_folder_path = 'Transcriptions/manual_transcriptions'
     ai_transcription_folder_path_list = [
-        'Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_aws',
-        'Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_azure',
-        'Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gcp',
-        'Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gemini',
-        'Datasets_Audios_Medicos/Transcriptions/ai_transcriptions/transcription_gpt4o'
+        'Transcriptions/ai_transcriptions/transcription_aws',
+        'Transcriptions/ai_transcriptions/transcription_azure',
+        'Transcriptions/ai_transcriptions/transcription_gcp',
+        'Transcriptions/ai_transcriptions/transcription_gemini',
+        'Transcriptions/ai_transcriptions/transcription_gpt4o'
     ]
     ai_labels = ['AWS', 'Azure', 'GCP', 'Gemini', 'GPT4o']
 
@@ -107,7 +131,7 @@ if __name__ == "__main__":
             final_results[audio_name][label] = f"{round(wer_value['wer'] * 100, 2)}%"
 
     # Pega duração de cada áudio
-    durations = get_time_duration('Datasets_Audios_Medicos\Transcriptions\json')
+    durations = get_time_duration('Transcriptions/json')
 
     for audio_name, duration in durations.items():
         if audio_name in final_results:

@@ -1,4 +1,22 @@
 ===== Informações do Dataset =====
 Total de arquivos de áudio: 23
-Tempo total (em minutos): 10708.51
+Tempo total (em minutos): 49.58
 Total de palavras: 7702
+
+===== Categorias Disponíveis =====
+Total de categorias únicas: 5
+Categorias encontradas:
+  - Agro: 2 arquivo(s)
+  - Genérico: 7 arquivo(s)
+  - Jogos: 1 arquivo(s)
+  - Médica: 12 arquivo(s)
+  - Tecnologia: 1 arquivo(s)
+
+===== Fontes de Áudio =====
+Total de fontes únicas: 5
+Fontes encontradas:
+  - GitHub: 7 arquivo(s)
+  - Gravação Própria: 4 arquivo(s)
+  - Spotify: 1 arquivo(s)
+  - YouTube: 7 arquivo(s)
+  - Áudio gerado artificialmente: 4 arquivo(s)

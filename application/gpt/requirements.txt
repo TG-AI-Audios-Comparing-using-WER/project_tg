@@ -1,0 +1,42 @@
+# Dependências para o sistema robusto de transcrição de áudio
+# Instale com: pip install -r requirements.txt
+
+# OpenAI/Azure OpenAI
+openai>=1.0.0
+azure-identity>=1.15.0
+
+# Configuração e ambiente
+python-dotenv>=1.0.0
+
+# Processamento de áudio (opcional, para conversão de formatos)
+# Instale ffmpeg separadamente: https://ffmpeg.org/download.html
+# No Windows: choco install ffmpeg
+# No Ubuntu: sudo apt install ffmpeg
+# No macOS: brew install ffmpeg
+
+# Logging e utilitários
+pathlib2>=2.3.7  # Para compatibilidade com versões antigas do Python
+
+# Processamento de arquivos temporários
+tempfile  # Built-in do Python
+
+# Subprocess para execução de comandos externos
+subprocess  # Built-in do Python
+
+# Base64 para codificação de áudio
+base64  # Built-in do Python
+
+# JSON para configurações
+json  # Built-in do Python
+
+# Sistema operacional
+os  # Built-in do Python
+
+# Time para delays
+time  # Built-in do Python
+
+# Logging
+logging  # Built-in do Python
+
+# Tipos para type hints
+typing  # Built-in do Python (Python 3.5+)
